@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useForm } from '../../hooks/useForm';
 import './effects.css';
 
@@ -24,11 +24,11 @@ export const FormWithCustomHook = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-          <h1>Form With Custom Hook</h1>  
+        <form className='form-group mb-10' onSubmit={handleSubmit}>
+          <h1>Form With custom hook (submit to see values on the console)</h1>  
           <hr/>
 
-          <div className='form-group'>
+          <div className='form-group mb-1'>
               <input
                 type="text"
                 name="name"
@@ -40,7 +40,7 @@ export const FormWithCustomHook = () => {
                 />
           </div>
 
-          <div className='form-group'>
+          <div className='form-group mb-1'>
               <input
                 type="text"
                 name="email"
@@ -52,7 +52,7 @@ export const FormWithCustomHook = () => {
                 />
           </div>
 
-          <div className='form-group'>
+          <div className='form-group mb-1'>
               <input
                 type="password"
                 name="password"

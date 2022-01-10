@@ -26,7 +26,7 @@ export const LayoutEffect = () => {
 
     return (
         <div>
-            <h1>Layout Effect</h1>
+            <h1>useLayoutEffect demo (detect size changes in p element)</h1>
             <hr/>
             {/*ternary operation used with the help of the loading value retrieved from the useFetch hook,
                 if the information dont exist, it will display a loading element as an alert, else if the data

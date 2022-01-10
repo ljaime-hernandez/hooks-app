@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 // the useForm hook will receive a value but will have an empty object as its initial
 // state, we create a function called handleInputChange which will return a value based 

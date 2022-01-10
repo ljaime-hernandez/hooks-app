@@ -24,7 +24,7 @@ export const MultipleCustomHooks = () => {
 
     return (
         <div>
-            <h1>Breaking Bad Quotes</h1>
+            <h1>Multiple custom hooks demo (Breaking Bad Quotes API)</h1>
             <hr/>
             {/*ternary operation used with the help of the loading value retrieved from the useFetch hook,
                 if the information dont exist, it will display a loading element as an alert, else if the data

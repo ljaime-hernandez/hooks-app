@@ -41,10 +41,10 @@ export const SimpleForm = () => {
 
     return (
         <>
-          <h1>useEffect</h1>  
+          <h1>useEffect demo (type '123' on the name input to see mouse coordinates)</h1>  
           <hr/>
 
-          <div className='form-group'>
+          <div className='form-group mb-1'>
               <input
                 type="text"
                 name="name"
@@ -56,7 +56,7 @@ export const SimpleForm = () => {
                 />
           </div>
 
-          <div className='form-group'>
+          <div className='form-group mb-1'>
               <input
                 type="text"
                 name="email"

@@ -18,8 +18,9 @@ export const CounterApp = () => {
     return (
         <>
         {/* display of both variables retrieved from the state object*/}
-          <h1>Counter 1 {counter1}</h1>
-          <h1>Counter 2 {counter2}</h1>
+        <h1>useState demo</h1>
+          <h3>Counter 1 {counter1}</h3>
+          <h3>Counter 2 {counter2}</h3>
           <hr/>
         {/* button will modify the value of only one of the variables in the state object*/}
           <button 
@@ -36,7 +37,7 @@ export const CounterApp = () => {
                 })
             }}
           >
-           counter 1 +1    
+           increment only counter 1 + 1    
           </button>  
         </>
     )

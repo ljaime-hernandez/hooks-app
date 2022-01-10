@@ -11,17 +11,17 @@ export const FocusScreen = () => {
 
     return (
         <div>
-            <h1>Focus Screen</h1>
+            <h1>useRef demo</h1>
             <hr/>
 
             <input 
                 ref={inputRef}
-                className='form-control'
+                className='form-control mb-2'
                 placeholder='Your name'    
             />
 
             <button 
-                className='btn btn-outline-primary mt-5'
+                className='btn btn-outline-primary'
                 onClick={handleClick}
             >
                 Focus

@@ -11,15 +11,16 @@ export const CounterWithCustomHook = () => {
 
     return (
         <>
-          <h1>Counter with hook: {state}</h1>
+          <h1>useState demo with custom hook</h1>
+          <h3>Counter: {state}</h3>
           <hr/>
           {/*as the increment function needs an argument, we need to create a basic arrow function in here for it
              to work, if we were to use the function as the reset one (which does not need an argument), the compiler
              would send an error, even when it has a default value on its argument as seen from the useCounter file, the
              same applies to the decrement function */}
-          <button onClick={() => increment(1)} className='btn'>+ 1</button>  
-          <button onClick={() => decrement(1)} className='btn'>- 1</button>
-          <button onClick={reset} className='btn'>reset</button>
+          <button onClick={() => increment(1)} className='btn btn-primary me-3'>+ 1</button>  
+          <button onClick={() => decrement(1)} className='btn btn-primary me-3'>- 1</button>
+          <button onClick={reset} className='btn btn-primary'>reset</button>
 
         </>
     )
