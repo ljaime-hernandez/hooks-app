@@ -13,7 +13,7 @@ export const ShowIncrement = memo(({increment}) => {
                 increment(5);
             }}
         >
-            + 1
+            + 5
         </button>
     )
 })
