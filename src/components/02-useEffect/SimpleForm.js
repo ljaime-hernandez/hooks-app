@@ -42,7 +42,6 @@ export const SimpleForm = () => {
     return (
         <>
           <h1>useEffect demo (type '123' on the name input to see mouse coordinates)</h1>  
-          <hr/>
 
           <div className='form-group mb-1'>
               <input

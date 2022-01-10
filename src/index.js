@@ -16,16 +16,27 @@ import { ParentMemo } from './components/07-homework-memo/ParentMemo';
 ReactDOM.render(
   <>
     <CounterApp/>
+    <hr className='mb-3'/>
     <CounterWithCustomHook/>
+    <hr className='mb-3'/>
     <SimpleForm/>
+    <hr className='mb-3'/>
     <FormWithCustomHook/>
+    <hr className='mb-3'/>
     <MultipleCustomHooks/>
+    <hr className='mb-3'/>
     <FocusScreen/>
+    <hr className='mb-3'/>
     <LayoutEffect/>
+    <hr className='mb-3'/>
     <Memorize/>
+    <hr className='mb-3'/>
     <MemoHook/>
+    <hr className='mb-3'/>
     <CallBackHooks/>
+    <hr className='mb-3'/>
     <ParentMemo/>
+    <hr className='mb-3'/>
   </>,
   document.getElementById('root')
 );

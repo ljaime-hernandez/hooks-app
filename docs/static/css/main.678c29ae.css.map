@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.678c29ae.css","mappings":"AACA,KACI,YACJ,CAEA,YACI,YACJ","sources":["components/05-useLayoutEffect/layout.css"],"sourcesContent":["\r\nbody {\r\n    padding: 70px;\r\n}\r\n\r\n.blockquote {\r\n    display: flex;\r\n}"],"names":[],"sourceRoot":""}

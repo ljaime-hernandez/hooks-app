@@ -12,7 +12,6 @@ export const Memorize = () => {
         <div>
             <h1>React memo demo</h1>
             <h3>Counter: <Small value={counter}/></h3>
-            <hr/>
 
             <button
                 className='btn btn-primary me-3'

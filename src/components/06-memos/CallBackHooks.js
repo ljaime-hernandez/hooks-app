@@ -25,7 +25,6 @@ export const CallBackHooks = () => {
         <div>
             <h1>useCallback demo</h1>
             <h3>Counter: {counter}</h3>
-            <hr/>
             <ShowIncrement increment={increment}/>
         </div>
     )

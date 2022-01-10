@@ -21,7 +21,6 @@ export const MemoHook = () => {
         <div>
             <h1>useMemo demo</h1>
             <h3>Counter: <small>{counter}</small></h3>
-            <hr/>
 
             <p>{memoIterationsExecuted}</p>
 

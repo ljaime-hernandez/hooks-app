@@ -26,7 +26,6 @@ export const FormWithCustomHook = () => {
     return (
         <form className='form-group mb-10' onSubmit={handleSubmit}>
           <h1>Form With custom hook (submit to see values on the console)</h1>  
-          <hr/>
 
           <div className='form-group mb-1'>
               <input

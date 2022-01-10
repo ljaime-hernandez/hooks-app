@@ -21,7 +21,6 @@ export const CounterApp = () => {
         <h1>useState demo</h1>
           <h3>Counter 1 {counter1}</h3>
           <h3>Counter 2 {counter2}</h3>
-          <hr/>
         {/* button will modify the value of only one of the variables in the state object*/}
           <button 
             className='btn btn-primary'

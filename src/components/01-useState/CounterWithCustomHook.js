@@ -13,7 +13,6 @@ export const CounterWithCustomHook = () => {
         <>
           <h1>useState demo with custom hook</h1>
           <h3>Counter: {state}</h3>
-          <hr/>
           {/*as the increment function needs an argument, we need to create a basic arrow function in here for it
              to work, if we were to use the function as the reset one (which does not need an argument), the compiler
              would send an error, even when it has a default value on its argument as seen from the useCounter file, the

@@ -12,7 +12,6 @@ export const FocusScreen = () => {
     return (
         <div>
             <h1>useRef demo</h1>
-            <hr/>
 
             <input 
                 ref={inputRef}

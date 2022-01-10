@@ -13,13 +13,10 @@ export const ParentMemo = () => {
         setValue( v => v + num )
     }, [setValue])
 
-
     return (
         <div>
-            <h1>ParentMemo</h1>
+            <h1>ParentMemo (memo and useCallback practice)</h1>
             <p> Total: { value } </p>
-
-            <hr />
 
             {
                 nums.map( n => (
