@@ -7,6 +7,9 @@ export const useForm = (initialState = {}) => {
 
     const [values, setValues] = useState(initialState);
 
+    const reset = () => {
+        setValues(initialState);
+    }
     // the handleInputChange function will receive the values from the FormWithCustomHook 
     // component, the spread operator is used so the variables on it, either empty or not, 
     // remain the same while we receive the event (as this function is used in the 'onChange'
@@ -21,5 +24,5 @@ export const useForm = (initialState = {}) => {
             [target.name]: target.value
         });
     }
-    return [values, handleInputChange];
+    return [values, handleInputChange, reset];
 }
