@@ -103,6 +103,18 @@ allowing us to reduce the memory usage (different to declaring the function with
 
 Simple component exclusively created to test my knowledge in useCallback and memo.
 
+## useReducer examples:
+
+### TodoApp:
+
+uses a useReducer hook, customized with a todoReducer function which i created to have a better understanding of its
+functionality, this component was divided in several others for modulation and optimization, the component will
+receive a task as a string and will add it to an array of objects, which will be saved in the localStorage of the
+browser, the userReducer will NOT modify the actual object, but will either delete or add new objects to an existing
+array. Every action done to the array will go through a dispatch function, connecting the component to a reducer hook,
+all done accordingly for us to add or modify additional actions in the future if needed. Further information of its
+child components and functionality can be found on each file, hoping it clarifies the code and serve as reference
+to anyone who wants to learn from it
 
 
 no additional dependencies were used on this webapp besides a bootstrap CDN, a pull request along with a npm install
