@@ -116,6 +116,29 @@ all done accordingly for us to add or modify additional actions in the future if
 child components and functionality can be found on each file, hoping it clarifies the code and serve as reference
 to anyone who wants to learn from it
 
+## useContext examples:
+
+### MainApp, AppRouter, "Screen" components and UserContext:
+
+on this component i demonstrate how a Router component (exported through the installation of a  react-router-dom 
+dependency) works and how it allow us to, in this case, do a small demo for a SPA (Single Page Application).
+The NavBar is a custom nav component which will include links to our different components and additional features 
+explained on it.
+The Routes component is an export brought from the react-route-dom dependency, which will allow us to handle the 
+different routes contained in this folder, separated on different components.
+The Route component is also an export from react-route-dom, used solely to handle the path leading towards single 
+components, each route will render an specific component described on its element attribute, but i also created an 
+additional route (the last one) which will handle any additional route written by the user which does not lead to 
+any of the components created on this context.
+
+The useState in the MainApp component is created just so we have a main source from where to retrieve the main user 
+information, given as well with the setUser function, which both will be passed as arguments to our custom UserContext 
+component.
+The UserContext then will be the middle component from which the rest of the "Screen" components will retrieve the main 
+user information for them to render, create or reset the user information, according to its description.
+For that to work we have to encapsulate the main AppRouter component with the context, as the context will be the 
+"father" component containing the main information as described above.
+
 
 no additional dependencies were used on this webapp besides a bootstrap CDN, a pull request along with a npm install
 should allow you to run the page without any issues.
