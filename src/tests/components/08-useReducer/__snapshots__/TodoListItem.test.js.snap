@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on TodoItemList component should render properly 1`] = `
+<li
+  className="list-group-item"
+  key="2"
+>
+  <p
+    className="false"
+    onClick={[Function]}
+  >
+    2
+    . 
+    Learn MongoDB
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+    value="Learn MongoDB"
+  >
+    Delete
+  </button>
+</li>
+`;
