@@ -39,7 +39,7 @@ export const MultipleCustomHooks = () => {
                 :
                     (
                         <blockquote className="blockquote text-end">
-                            <p>{quote}</p>
+                            <p className="quote">{quote}</p>
                             <figcaption className="blockquote-footer">{author}</figcaption>
                         </blockquote>
                     )

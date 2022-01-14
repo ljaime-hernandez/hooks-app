@@ -140,5 +140,12 @@ For that to work we have to encapsulate the main AppRouter component with the co
 "father" component containing the main information as described above.
 
 
-no additional dependencies were used on this webapp besides a bootstrap CDN, a pull request along with a npm install
-should allow you to run the page without any issues.
+### dependencies:
+
+- enzyme
+- enzyme-to-json
+- jest
+- react
+- react-hooks
+- react-router-dom
+- bootstrap (CDN)

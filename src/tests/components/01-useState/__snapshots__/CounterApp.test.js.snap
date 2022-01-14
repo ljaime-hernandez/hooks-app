@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on CounterApp component should show correctly 1`] = `
+<Fragment>
+  <h1>
+    useState demo
+  </h1>
+  <h3>
+    Counter 1 
+    10
+  </h3>
+  <h3>
+    Counter 2 
+    20
+  </h3>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    increment only counter 1 + 1
+  </button>
+</Fragment>
+`;

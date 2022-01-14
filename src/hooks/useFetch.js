@@ -51,8 +51,14 @@ export const useFetch = (url) => {
                         error: null,
                         data
                 })}, 2000)}
+            }).catch(() => {
+                setState({
+                    data: null,
+                    loading: false,
+                    error: 'Info could not get loaded'
+                })
             })
-    }, [url])
+    }, [url]);
 
     return state;
 }
