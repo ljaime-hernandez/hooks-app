@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on NavBar component should  1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <Link
+    className="navbar-brand"
+    to="/"
+  >
+    UseContext
+  </Link>
+  <div
+    className="collapse navbar-collapse"
+    id="navbarNavAltMarkup"
+  >
+    <div
+      className="navbar-nav"
+    >
+      <NavLink
+        className="nav-link navData => navData.isActive && 'active'"
+        to="/"
+      >
+        Home Screen
+      </NavLink>
+      <NavLink
+        className="nav-link navData => navData.isActive && 'active'"
+        to="/login"
+      >
+        Login Screen
+      </NavLink>
+      <NavLink
+        className="nav-link navData => navData.isActive && 'active'"
+        to="/logout"
+      >
+        Logout Screen
+      </NavLink>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Tests on NavBar component should render properly 1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <Link
+    className="navbar-brand"
+    to="/"
+  >
+    UseContext
+  </Link>
+  <div
+    className="collapse navbar-collapse"
+    id="navbarNavAltMarkup"
+  >
+    <div
+      className="navbar-nav"
+    >
+      <NavLink
+        className="nav-link navData => navData.isActive && 'active'"
+        to="/"
+      >
+        Home Screen
+      </NavLink>
+      <NavLink
+        className="nav-link navData => navData.isActive && 'active'"
+        to="/login"
+      >
+        Login Screen
+      </NavLink>
+      <NavLink
+        className="nav-link navData => navData.isActive && 'active'"
+        to="/logout"
+      >
+        Logout Screen
+      </NavLink>
+    </div>
+  </div>
+</nav>
+`;

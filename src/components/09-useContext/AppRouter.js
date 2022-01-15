@@ -24,6 +24,7 @@ import { NavBar } from "./NavBar";
 export const AppRouter = () => {
     return (
         <Router>
+            <h1>useContext demo (using Route from react-router-dom)</h1>
             <div>
                 <NavBar/>
                 <Routes>

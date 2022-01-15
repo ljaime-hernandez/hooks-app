@@ -139,6 +139,14 @@ user information for them to render, create or reset the user information, accor
 For that to work we have to encapsulate the main AppRouter component with the context, as the context will be the 
 "father" component containing the main information as described above.
 
+## Unit testing (using enzyme, enzyme-to-json, jest and react-hooks dependencies):
+
+Each file used for this webapp has specific tests, with the help of enzyme, enzyme-to-json, react-hooks, and jest. 
+Each component and file has tests for them to match snapshots, to match expected variables with or without specific 
+arguments on each components behavior, how each component should behave due to its required propTypes and how each 
+component should be appropriately rendered after the arguments are passed (or not passed). Please refer to any test 
+file for additional information as the tests are specific for every single one of them and i put extra effort on the 
+details for it to be as clear as possible and for anyone to use them as reference and learn from them if possible.
 
 ### dependencies:
 

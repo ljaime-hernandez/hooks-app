@@ -58,7 +58,7 @@ export const useFetch = (url) => {
                     error: 'Info could not get loaded'
                 })
             })
-    }, [url]);
+    }, [url])
 
     return state;
 }
